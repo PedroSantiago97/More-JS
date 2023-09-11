@@ -113,89 +113,10 @@ switch (fruta) {
 // Estrutruras de repetições
 // 1, 2, 3, 4, 5, 6... => Dependendo de uma condição
 
-// contador, condição de limite, incremento
-for (let i = 0; i < 5; i++){
-    console.log(`O valor de i é: ${i}`)
+for(b=5;b<50;){
+
 
 }
-
-// while
-
-let k = 0;
-
-while (k < 5) {
-    console.log("Ovalor de k: "+ k);
-    k++;
-}
-
-// funções
-// function nome(arg1, arg2) { corpo }
-
-function cumprimentar(nome){ 
-    console.log("Olá! "+nome)
-}
-
-// invocação 
-cumprimentar("Kiko")
-
-//escopo de variáveis
-let cor = "azul"
-
-function mostrarCor() {
-    let cor = "verde"
-    console.log(cor);
-}
-console.log(cor);
-mostrarCor();
-
-// hosting = içamento
-testeHoisting()
-function testeHoisting() {
-    console.log("Deu Certo!")
-}
-
-// arrow function
-const testeArrow = () => console.log("Isso tambem é função");
-testeArrow()
-
-// truthy e falsy
-const minhaVariavel11 = ""; //falsy
-
-if(minhaVariavel11){
-    console.log("É verdadeiro!");
-} else {
-    console.log("É falso!");
-}
-
-// array, listas
-
-const numeros = [1, 2, 3, 4, 5]
-
-console.log(numeros);
-
-console.log(numeros[0]);
-
-console.log(numeros[4]);
-
-numeros.push(12); // Coloca um termo no final do Array
-
-console.log(numeros)
-
-numeros.pop() // Tira o ultimo termo do Array
-
-console.log(numeros)
-
-//strings
- const minhaStringNova = "Olá, Mundo!"
-
- // Concatenação
- const minhaString3 = minhaStringNova + " Como você está ?"
-
- console.log(minhaString3)
- 
-
-
-
 
 
 
