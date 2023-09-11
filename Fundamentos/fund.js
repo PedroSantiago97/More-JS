@@ -186,13 +186,44 @@ numeros.pop() // Tira o ultimo termo do Array
 console.log(numeros)
 
 //strings
- const minhaStringNova = "Olá, Mundo!"
+const minhaStringNova = "Olá, Mundo!"
 
- // Concatenação
- const minhaString3 = minhaStringNova + " Como você está ?"
+// Concatenação
+const minhaString3 = minhaStringNova + " Como você está ?"
 
- console.log(minhaString3)
- 
+console.log(minhaString3)
+
+//Interpolação
+
+const minhaString4 = `${minhaStringNova} Como você está ?`
+console.log(minhaString4)
+
+console.log(minhaString4.length) // mostra a qtd de caracteres 
+
+console.log(minhaString4[7]) // mostra um caractere especifico
+
+console.log(minhaString4.toUpperCase()) // Deixa tudo Maiúsculo
+
+// Data e hora
+const agora = Date()
+console.log(agora);
+
+const natal = new Date(2023, 11, 25)
+console.log(natal)
+
+// Math
+
+console.log(Math.PI);
+
+console.log(Math.round(3.9));
+
+console.log(Math.sqrt(16));
+
+
+
+
+
+
 
 
 
