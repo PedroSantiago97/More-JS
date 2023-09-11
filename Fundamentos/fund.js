@@ -213,11 +213,17 @@ console.log(natal)
 
 // Math
 
-console.log(Math.PI);
+console.log(Math.PI); // Numero pi
 
-console.log(Math.round(3.9));
+console.log(Math.round(3.9)); // Arredondamento
 
-console.log(Math.sqrt(16));
+console.log(Math.sqrt(16)); // Raiz quadrada
+
+console.log(Math.pow(2,3)); // Potenciação
+
+
+
+
 
 
 
