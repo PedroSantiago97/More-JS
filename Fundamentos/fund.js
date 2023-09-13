@@ -185,6 +185,13 @@ numeros.pop() // Tira o ultimo termo do Array
 
 console.log(numeros)
 
+let numer = "Oi, eu sou o goku!"
+let qtdnum = numer.split("i") // Separa o array por determinado elemento apresentado entre parenteses
+
+console.log(qtdnum.length);
+
+
+
 //strings
 const minhaStringNova = "Olá, Mundo!"
 
