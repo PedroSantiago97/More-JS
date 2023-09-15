@@ -179,11 +179,11 @@ console.log(numeros[4]);
 
 numeros.push(12); // Coloca um termo no final do Array
 
-console.log(numeros)
+console.log(numeros);
 
-numeros.pop() // Tira o ultimo termo do Array
+numeros.pop(); // Tira o ultimo termo do Array
 
-console.log(numeros)
+console.log(numeros);
 
 let numer = "Oi, eu sou o goku!"
 let qtdnum = numer.split("i") // Separa o array por determinado elemento apresentado entre parenteses

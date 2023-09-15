@@ -36,28 +36,29 @@ for (i=0;i<=4;i++){
 
 //Exercicio 6: Criar uma função que converta as horas do formato de 24 hrs Ex: "14:30" pro formato de 12 hrs AM/PM Ex: "02:00 PM"
 
-function converterhorario(hora)
+// Jeito feio e com função T.T
+function converterhorario(hora) {
+    const [horas, minutos] = hora.split(":")
 
+    let hora12 = horas % 12 || 12;
+    
+     let periodo = "AM"
 
+     if(horas > 12){
+     periodo = "PM"  
+     }
 
+   
 
-
-
-
-
-
-
-
-//Jeito sem função
-const horap =  new Date();
-var hora = 12;
-const minuto = horap.getMinutes();
-
-if (hora >= 12) {
-    var hora12 = hora % 12;
-} if (hora12 = 12){
-    hora12 = 12
+    console.log(`Agora são ${hora12}:${minutos} ${periodo}`);
 }
+
+converterhorario("12:16")
+
+//Jeito sem função :D
+const horap =  new Date();
+let hora = horap.getHours();
+const minuto = horap.getMinutes();
 
 var periodo = "AM";
 
@@ -65,7 +66,10 @@ if (hora > 11) {
     var periodo = "PM";
 }
 
-console.log(`A hora atual é : ${hora12}:${minuto} ${periodo} `)
+console.log(`A hora atual é : ${hora}:${minuto} ${periodo} `)
+
+
+
 
 
 
